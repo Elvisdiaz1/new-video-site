@@ -44,3 +44,20 @@
 #navbar button {
   margin-left: -35px;
 }
+
+#menu-container {
+  display: block;
+  width: 10%;
+  background-color: lightgray;
+}
+#menu {
+  display: flex;
+  flex-direction: column;
+  height: 15rem;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#menu button {
+  width: 80%;
+}

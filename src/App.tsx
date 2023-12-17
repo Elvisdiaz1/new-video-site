@@ -8,6 +8,7 @@ function App() {
   return (
     <div className="App">
       <Navbar />
+      <Main_Page />
     </div>
   );
 }
