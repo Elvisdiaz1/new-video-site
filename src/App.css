@@ -4,17 +4,22 @@
   box-sizing: border-box;
 }
 
+#nav-container {
+  display: block;
+}
 #navbar {
   background: blue;
   color: white;
   overflow: auto;
-  display: grid;
-  grid-template-columns: repeat(4, 70px);
+  display: flex;
   padding-left: 80px;
-  padding-bottom: 1rem;
-  padding-top: 10px;
-  margin-left: 15px;
-  margin-right: 15px;
+  /* padding-bottom: 1rem; */
+  /* padding-top: 10px; */
+  /* margin-left: 15px; */
+  /* margin-right: 15px; */
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
 }
 
 #navbar h4 {
@@ -30,4 +35,12 @@
   height: 30px;
   border-radius: 50%;
   /* margin-top: -30px; */
+}
+
+#navbar input {
+  padding-right: 30px;
+}
+
+#navbar button {
+  margin-left: -35px;
 }
