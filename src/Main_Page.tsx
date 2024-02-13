@@ -9,7 +9,7 @@ const Main_Page = () => {
       <Menu />
       <div>
         <h3>hel</h3>
-        <video controls autoPlay={true} muted>
+        <video controls autoPlay={true} muted id="video">
           <source src="videos/test.mp4" type="video/mp4" />
         </video>
       </div>

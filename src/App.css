@@ -64,15 +64,19 @@
 
 #main-container {
   display: flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
+  gap: 65px;
 }
 
 .small-vid {
-  width: 13%;
+  width: 300px;
+  height: 200px;
   display: block;
+  margin-right: -20em;
 }
-
-#side-videos {
-  display: flex;
-  flex-direction: column;
-}
+/* #video {
+  width: 800px;
+} */
+/* #side-videos {
+  padding: -50px 0 -50px 0;
+} */
