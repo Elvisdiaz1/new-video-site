@@ -90,10 +90,21 @@
   background-color: aliceblue;
   border-style: solid;
   padding: 0% 0.5% 0.5% 0.5%;
+  margin-top: 0.5%;
+  width: 92.5%;
 }
 #comments ul {
   list-style: none;
 }
 #comments li {
   margin-top: 1%;
+}
+#description-container {
+  background-color: aliceblue;
+  border-style: solid;
+  padding: 0% 0.5% 0.5% 0.5%;
+  width: 92.5%;
+}
+#description-container p {
+  margin-top: 0.5%;
 }
