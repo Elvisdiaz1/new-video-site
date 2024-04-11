@@ -65,7 +65,7 @@
 #main-container {
   display: flex;
   /* justify-content: space-between; */
-  gap: 65px;
+  gap: 20px;
 }
 
 .small-vid {
@@ -79,9 +79,9 @@
    width: 70%; 
 } */
 
-/* #video-body {
-  flex-basis: 10%  Maybe Use It 
-} */
+#video-body {
+  flex-basis: 71%;
+}
 /* #side-videos {
   padding: -50px 0 -50px 0;
 } */
@@ -91,7 +91,7 @@
   border-style: solid;
   padding: 0% 0.5% 0.5% 0.5%;
   margin-top: 0.5%;
-  width: 92.5%;
+  width: 94.5%;
 }
 #comments ul {
   list-style: none;
@@ -103,7 +103,7 @@
   background-color: aliceblue;
   border-style: solid;
   padding: 0% 0.5% 0.5% 0.5%;
-  width: 92.5%;
+  width: 94.5%;
 }
 #description-container p {
   margin-top: 0.5%;
