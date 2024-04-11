@@ -76,8 +76,24 @@
   margin-top: 3%;
 }
 /* #video {
-  width: 800px;
+   width: 70%; 
+} */
+
+/* #video-body {
+  flex-basis: 10%  Maybe Use It 
 } */
 /* #side-videos {
   padding: -50px 0 -50px 0;
 } */
+
+#comment-container {
+  background-color: aliceblue;
+  border-style: solid;
+  padding: 0% 0.5% 0.5% 0.5%;
+}
+#comments ul {
+  list-style: none;
+}
+#comments li {
+  margin-top: 1%;
+}
