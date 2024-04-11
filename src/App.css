@@ -108,3 +108,17 @@
 #description-container p {
   margin-top: 0.5%;
 }
+#viewer-interaction img {
+  height: 3em;
+}
+#viewer-interaction {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 0.5% 0 0.5% 0;
+}
+#subscribe-button {
+  margin-left: 0.5%;
+  padding: 0.4% 1% 0.4% 1%;
+  font-size: 1em;
+}

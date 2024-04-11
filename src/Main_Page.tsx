@@ -2,6 +2,7 @@ import React from "react";
 import Menu from "./Menu";
 import Side_Videos from "./Side_Videos";
 import Comments from "./Comments";
+import user from "./images/dummy-user-pic.jpg";
 // import video from "../public/videos/test.mp4";
 
 const Main_Page = () => {
@@ -13,6 +14,17 @@ const Main_Page = () => {
         <video controls autoPlay={true} muted id="video">
           <source src="videos/test.mp4" type="video/mp4" />
         </video>
+        <div id="viewer-interaction">
+          <img src={user} alt="account user" />
+          <h5>Jan Dae</h5>
+          <button id="subscribe-button">Subscribe</button>
+          <p id="view-count">25,935 views</p>
+          <div id="like/dislike-button-container">
+            <button id="like-button">Like</button>
+            <button id="dislike-button">Dislike</button>
+          </div>
+        </div>
+
         <div id="description-container">
           <p>Published on 4/23/24</p>
           <p id="description">
