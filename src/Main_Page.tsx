@@ -15,13 +15,21 @@ const Main_Page = () => {
           <source src="videos/test.mp4" type="video/mp4" />
         </video>
         <div id="viewer-interaction">
-          <img src={user} alt="account user" />
-          <h5>Jan Dae</h5>
-          <button id="subscribe-button">Subscribe</button>
-          <p id="view-count">25,935 views</p>
-          <div id="like/dislike-button-container">
-            <button id="like-button">Like</button>
-            <button id="dislike-button">Dislike</button>
+          <div id="viewer-interaction-first-half">
+            <img src={user} alt="account user" />
+            <div id="uploader-info">
+              <h5>Jan Dae</h5>
+              <p> 1,352 subs</p>
+            </div>
+            <button id="subscribe-button">Subscribe</button>
+          </div>
+
+          <div id="viewer-interaction-second-half">
+            <p id="view-count">25,935 views</p>
+            <div id="like/dislike-button-container">
+              <button id="like-button">Like</button>
+              <button id="dislike-button">Dislike</button>
+            </div>
           </div>
         </div>
 

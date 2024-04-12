@@ -114,8 +114,13 @@
 #viewer-interaction {
   display: flex;
   flex-direction: row;
-  align-items: center;
   margin: 0.5% 0 0.5% 0;
+  justify-content: space-between;
+}
+#viewer-interaction-first-half,
+#viewer-interaction-second-half {
+  display: flex;
+  align-items: center;
 }
 #viewer-interaction h5 {
   font-size: 1em;
@@ -124,5 +129,5 @@
 #subscribe-button {
   margin-left: 0.5%;
   padding: 0.4% 1% 0.4% 1%;
-  font-size: 1em;
+  font-size: 1.3em;
 }
