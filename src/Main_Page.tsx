@@ -19,7 +19,7 @@ const Main_Page = () => {
             <img src={user} alt="account user" />
             <div id="uploader-info">
               <h5>Jan Dae</h5>
-              <p> 1,352 subs</p>
+              <p> 1,352 Subscribers</p>
             </div>
             <button id="subscribe-button">Subscribe</button>
           </div>
