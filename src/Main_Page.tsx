@@ -10,7 +10,7 @@ const Main_Page = () => {
     <div id="main-container">
       <Menu />
       <div id="video-body">
-        <h1>hel</h1>
+        <h1>HELLLLO EVERYBODY!! Test Playthough Vid Part 2</h1>
         <video controls autoPlay={true} muted id="video">
           <source src="videos/test.mp4" type="video/mp4" />
         </video>

@@ -150,3 +150,7 @@
 #dislike-button {
   padding: 0.3rem 0.8rem;
 }
+
+#video-body h1 {
+  margin: 2rem 0 1rem 0;
+}
