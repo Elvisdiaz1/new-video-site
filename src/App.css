@@ -12,11 +12,7 @@
   color: white;
   overflow: auto;
   display: flex;
-  padding-left: 80px;
-  /* padding-bottom: 1rem; */
-  /* padding-top: 10px; */
-  /* margin-left: 15px; */
-  /* margin-right: 15px; */
+  padding: 1rem 0.5rem;
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
@@ -38,7 +34,7 @@
 }
 
 #navbar input {
-  padding-right: 30px;
+  padding: 5% 400% 5% 0;
 }
 
 #navbar button {
@@ -153,4 +149,16 @@
 
 #video-body h1 {
   margin: 2rem 0 1rem 0;
+}
+
+#account {
+  display: flex;
+}
+
+#search-bar {
+  display: flex;
+}
+#website-naming {
+  display: flex;
+  gap: 15%;
 }
