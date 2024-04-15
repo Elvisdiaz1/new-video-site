@@ -115,7 +115,7 @@
   display: flex;
   flex-direction: row;
   margin: 0.5% 0 0.5% 0;
-  gap: 48rem;
+  gap: 25rem;
 }
 #viewer-interaction-first-half,
 #viewer-interaction-second-half {
@@ -140,4 +140,13 @@
   margin-left: 2.5%;
   padding: 0.4% 1% 0.4% 1%;
   font-size: 1.3em;
+}
+
+#like-dislike-button-container {
+  display: flex;
+  gap: 1rem;
+}
+#like-button,
+#dislike-button {
+  padding: 0.3rem 0.8rem;
 }

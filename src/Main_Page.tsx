@@ -26,7 +26,7 @@ const Main_Page = () => {
 
           <div id="viewer-interaction-second-half">
             <p id="view-count">25,935 views</p>
-            <div id="like/dislike-button-container">
+            <div id="like-dislike-button-container">
               <button id="like-button">Like</button>
               <button id="dislike-button">Dislike</button>
             </div>
