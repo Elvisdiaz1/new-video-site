@@ -14,10 +14,11 @@ const Navbar = () => {
           <input type="text" placeholder="Search" />
           <button> Submit</button>
         </div>
+        <button id="nav-upload-button">Upload</button>
         <div id="account">
           {/* Person Little Profile on Navbar */}
-          <h5>Jan Dae</h5>
           <img src={user} alt="account user" />
+          <h5>Jan Dae</h5>
         </div>
       </nav>
     </div>

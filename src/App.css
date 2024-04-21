@@ -16,18 +16,16 @@
   flex-wrap: wrap;
   align-items: center;
   justify-content: space-around;
+  gap: 25%;
 }
 
 #navbar h4 {
   padding-left: 75px;
 }
 
-#navbar h5 {
-  padding-left: 83rem;
-}
-
 #navbar img {
   /* padding-left: 93rem; */
+  /* padding-left: 55rem; */
   height: 30px;
   border-radius: 50%;
   /* margin-top: -30px; */
@@ -37,10 +35,16 @@
   padding: 5% 400% 5% 0;
 }
 
-#navbar button {
+#search-bar button {
   margin-left: -35px;
+  padding: 0.3rem 0.8rem;
 }
 
+#nav-upload-button {
+  margin-left: 20%;
+  margin-right: -30%;
+  padding: 0.3rem 0.8rem;
+}
 #menu-container {
   display: block;
   width: 10%;
@@ -153,10 +157,14 @@
 
 #account {
   display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1em;
 }
 
 #search-bar {
   display: flex;
+  margin-left: -25%;
 }
 #website-naming {
   display: flex;
